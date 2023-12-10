@@ -86,11 +86,11 @@ int calculateFactorial(int n) {
   }
 }
 
-processingFunction(int commandsAndInput) async {
-  ReceivePort receivePort = ReceivePort();
+// processingFunction(int commandsAndInput) async {
+//   ReceivePort receivePort = ReceivePort();
 
-  return await receivePort.first;
-}
+//   return await receivePort.first;
+// }
 
 setupFactorialIsolate() async {
   return SendingTextCommandsAndReceivedProcessedIsolate();
